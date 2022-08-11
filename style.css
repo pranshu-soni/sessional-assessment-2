@@ -28,6 +28,8 @@
     font-family: sans-serif;
     color: white;
     margin-left: 20px;
+    margin-top: auto;
+    text-align: center;
     list-style-type: none;
 }
 

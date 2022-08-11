@@ -19,7 +19,7 @@ document.querySelector('#button').addEventListener('click', () => {
                 <li>Name: ${response[key].name}</li>
                 <li>Username: ${response[key].username}</li>
                 <li>Email-id: ${response[key].email}</li>
-                <li>Street: ${response[key].address.street}</li>
+                <li>Street-Address: ${response[key].address.street}</li>
                 <li>Suite: ${response[key].address.suite}</li>
                 <li>City: ${response[key].address.city}</li>
                 <li>Zipcode: ${response[key].address.zipcode}</li>
@@ -60,6 +60,7 @@ document.querySelector('#button1').addEventListener('click', () => {
                 output += `
                 
                 <li>${response[key].name}</li>
+                
             `
             }
             list.innerHTML=output;
